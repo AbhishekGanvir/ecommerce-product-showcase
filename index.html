@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Korina Fasion</title>
+
+    <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="./images/korina_images/hero,tital and favicon/favicon.png" type="image/x-icon">
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/amazon-header.css">
+    <link rel="stylesheet" href="styles/pages/amazon.css">
+    
+  </head>
+   <div class="amazon-header">
+      <div title="Home" class="amazon-header-left-section">
+        <a href="index.html" class="header-link">
+          <img class="amazon-logo"
+            src="images/korina_images/hero,tital and favicon/header-title.png">
+          <img class="amazon-mobile-logo"
+            src="images/korina_images/hero,tital and favicon/favicon.png">
+        </a>
+      </div>
+
+      
+
+      <div title="Orders" class="cart-link header-link">
+        <a class="order-icon" href="orders.html">
+          <div class="order-return">
+              <img  src="./images/delivery.svg" alt="Orders" >
+          </div>
+          
+         
+        </a>
+
+        <a title="Cart" class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity js-cart-quantity">3</div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-container">
+      <div class="hero">
+        <img src="./images/korina_images/hero,tital and favicon/home_hero.png" alt="hero" >
+      </div>
+    </div>
+    <div class="title-text">Top Collections</div>
+    <div  class="main">
+      <div class="products-grid     js-products-grid">
+        
+      </div>
+    </div>
+    
+    <!-- below this js file loops through the file and create html -->
+    <script type="module" src="./scripts/index.js"></script>
+    
+    <footer style="background: #f4f4f4; padding: 20px 0; text-align: center; margin-top: 40px;">
+  <p style="margin: 0; font-size: 14px; color: #555;">
+    © <span id="year"></span> | 
+    <a href="https://www.linkedin.com/in/abhishekganvir/" 
+       style="color: #555; text-decoration: none; font-weight: 500;">
+       Created by Abhishek Ganvir
+    </a>
+  </p>
+</footer>
+  </body>
+</html>
