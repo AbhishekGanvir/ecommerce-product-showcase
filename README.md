@@ -12,5 +12,5 @@ A responsive and interactive web application designed to showcase e-commerce pro
 - Checkout & Order Tracking: Simulates a complete shopping experience with checkout and order tracking pages.
 
 ## 🚀 Live Demo
-Experience the live demo here: https://abhishekganvir.github.io/ecommerce-product-showcase/
+Experience the live demo here: https://abhishekganvir.github.io/fwd-ecommerce-product-showcase/
 
